@@ -9,7 +9,7 @@ contract CustomErrorHandling {
     }
 
     function customRequire(uint _i) public pure {
-        require(_i > 6, "Input must be greater than 6");
+        require(_i > 10, "Input must be greater than 10");
     }
 
     function customAssert() public view {
@@ -17,10 +17,9 @@ contract CustomErrorHandling {
     }
 
     function Revert(uint _j) public pure {
-        if (_j >= 16) {
-            revert("Input must be less than 16");
+        if (_j >= 20) {
+            revert("Input must be less than 20");
         }
     }
 
-    
 }
