@@ -22,7 +22,5 @@ contract CustomErrorHandling {
         }
     }
 
-    function customFunction(uint _k) public pure returns (uint) {
-        return _k * 2;
-    }
+    
 }
