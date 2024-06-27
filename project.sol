@@ -8,11 +8,11 @@ contract CustomErrorHandling {
         num++;
     }
 
-    function customRequire(uint _i) public pure {
+    function Require(uint _i) public pure {
         require(_i > 10, "Input must be greater than 10");
     }
 
-    function customAssert() public view {
+    function Assert() public view {
         assert(num == 0);
     }
 
